@@ -1,0 +1,19 @@
+// Dette RPGLE-kodeeksempelet viser deklarering av variabler og bruk av en prosedyre for å sette verdier til variabler.
+// Variablene var1, var2 og var3 blir deklarert med forskjellige lengder og verdier. Prosedyren startpgm blir kalt og setter verdier til var1 og var2.
+
+// Deklarerer variabler var1, var2 og var3 med forskjellige lengder og verdier
+dcl-s var1 char(15) inz(*blanks);
+dcl-s var2 char(10) inz(*blanks);
+dcl-s var3 char(11) inz('ererer');
+
+// Kaller prosedyren startpgm
+exsr startpgm;
+
+// Prosedyren startpgm som setter verdier til var1 og var2
+begsr startpgm;
+  var1 = 'RB';
+  var2 = 'Er en bot';
+endsr;
+
+// Slutt på fri kode
+/endfree

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>AI Output</title>
+  </head>
+  <body style="background-color:black;">
+    <h5 style="color:#4AF626";>
+  <body>
+    <div class="container">
+        <!--
+        {% for key,value in form_data.items() %}
+        <h3> {{key}}</h3>
+        <p> {{value}}</p>
+        {% endfor %}
+         -->
+         <h3>AI OUTPUT:</h3>
+        <br>
+        <div class="form-group">
+          <textarea class="form" rows="25" style="background-color: black; color: #4AF626;font-size: 16px;">
+            {{ form_output | safe }}
+          </textarea>
+        </div>
+
+    </div>
+  </body>
+</html>

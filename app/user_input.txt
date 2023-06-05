@@ -1,0 +1,1 @@
+ImmutableMultiDict([('chat-input', "**free\r\n\r\ndcl-s var1 char(15)  inz(*blanks);\r\ndcl-s var2 char(10)  inz(*blanks);\r\ndcl-s var3 char(11)  inz('ererer');\r\n\r\nexsr startpgm;\r\n\r\nbegsr startpgm;\r\n  var1 = 'RB'\r\n  var2 = 'Er en bot'\r\nendsr;\r\n\r\n/endfree")])

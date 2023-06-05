@@ -1,0 +1,30 @@
+body {
+    background-color: #000000;   
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: #444;
+    margin-bottom: 40px;
+}
+
+img {
+    margin: auto;
+  }
+
+.my-class {
+  margin: left;
+}
+
+.centerImg {
+  display: block;
+  margin: 0 auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
